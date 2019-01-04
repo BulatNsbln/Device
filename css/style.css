@@ -160,3 +160,107 @@ a {
     font-weight: 700;
     color: #000000;
 }
+
+.options {
+    background-color: #e5e5e5;
+}
+
+.options .option_item {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.options .option_item_current {
+    background-color: #000000;
+    color: #f7e184;
+}
+
+.options_list {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.option_current_discreption h3 {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+.wrapper h2 {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 47px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info li {
+    list-style: none;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.wrapper .button {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.footer {
+    background-color: #464646; 
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer .main_title {
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #ffc600;
+}
+
+.footer_user_navigation,
+.footer_market_menu {
+    padding: 0;
+    margin: 0; 
+    line-height: 36px;
+}
+
+.footer_navigation_menu {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
