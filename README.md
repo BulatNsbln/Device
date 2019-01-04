@@ -1,1 +1,1 @@
-# Device
+<a href="https://bulatnsbln.github.io/Device/">Device</a>
