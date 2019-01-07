@@ -76,14 +76,19 @@ a {
     position: relative;
     margin-top: 40px;
     
+
+    height: 300px;
+    display: flex;
+    z-index: 1;
 }
 
 .main_header .main_title {
-    position: absolute;
+    /* position: absolute;
     top: -25px;
-    left: 60px;
-    padding: 0;
-    margin: 0;
+    left: 60px; */
+    margin-left: 60px;
+    margin-top: -23px;
+    margin-bottom: 0;
     
     font-family: 'Gilroy', Arial, sans-serif;
     font-size: 48px;
@@ -96,6 +101,10 @@ a {
     color: #000000;
 }
 
+.main_navigation_menu {
+    display: flex;
+}
+
 .main_navigation_menu a {
     font-family: 'Gilroy', Arial, sans-serif;
     font-size: 18px;
@@ -104,12 +113,77 @@ a {
     color: #000000;
 }
 
+.main_navigation_wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.main_navigation_wrapper input {
+    height: 20px;
+
+    
+    margin-left: 60px;
+    
+    background-color: #f7e296;
+    border: none;
+}
+
+.user_navigation {
+    padding: 0;
+    
+    margin-left: 400px;
+}
+
+.market_menu {
+    padding: 0;
+    margin-left: 250px;
+}
+
+.main_navigation_menu {
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 0;
+}
+
+.slider {
+    margin-top: -100px;
+    
+}
+
+.slide_item_image {
+    z-index: 2;
+}
+
+.slide_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    height: 500px;
+}
+
 .slide_item_title {
     font-family: 'Gilroy', Arial, sans-serif;
     font-size: 47px;
     line-height: 56px;
     font-weight: 700;
     color: #000000;
+
+    padding: 0;
+    margin: 0;
+
+    z-index: 2;
+}
+
+.slider_navigation ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.slide_item_props {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 
 .slide_item .button {
@@ -118,6 +192,19 @@ a {
     line-height: 24px;
     font-weight: 700;
     color: #000000;
+}
+
+.category_list {
+    display: flex;
+    
+    padding: 0;
+    margin: 0;
+
+    justify-content: space-between;
+}
+
+.category_list figure {
+    margin: 0;
 }
 
 .prop_item_title {
@@ -163,6 +250,13 @@ a {
 
 .options {
     background-color: #e5e5e5;
+
+    display: flex;
+    
+}
+
+.optiosns_discreptions {
+    margin-left: 100px;
 }
 
 .options .option_item {
@@ -194,6 +288,17 @@ a {
     font-weight: 700;
     color: #000000;
 
+}
+
+.brend_list {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
 }
 
 .wrapper h2 {
@@ -233,6 +338,9 @@ a {
 .footer {
     background-color: #464646; 
     color: #ffffff;
+
+    height: 325px;
+    display: flex;
 }
 
 .footer a {

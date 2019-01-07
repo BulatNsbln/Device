@@ -11,18 +11,21 @@
         <header class="main_header">
             <nav class="main_navigation">
                 <h1 class="main_title">DEVICE</h1>
-                <input type="text" placeholder="Поиск по сайту">
                 
-                <ul class="user_navigation">    
-                    <li><a class="sign_in" href="#">Войти</a></li>
-                </ul>
-                
-                <ul class="market_menu">
-                    <li>
-                        <a href="#">Сравнить</a>
-                        <a href="#">Корзина</a>
-                    </li>
-                </ul>
+                <div class="main_navigation_wrapper">
+                    <input type="text" placeholder="Поиск по сайту">
+                    
+                    <ul class="user_navigation">    
+                        <li><a class="sign_in" href="#">Войти</a></li>
+                    </ul>
+                    
+                    <ul class="market_menu">
+                        <li>
+                            <a href="#">Сравнить</a>
+                            <a href="#">Корзина</a>
+                        </li>
+                    </ul>
+                </div>
                 
                 <ul class="main_navigation_menu">
                     <li>
@@ -90,7 +93,7 @@
 
             <section class="category">
                 <h2 class="visually-hidden">Категории товаров.</h2>
-                <ul>
+                <ul class="category_list">
                     <li>
                         <figure>
                             <a href="#">
@@ -98,7 +101,8 @@
                                     <img src="./img/popular-1.svg">
                                 </p>
                                 <figcaption>
-                                    Виртуальная реальность
+                                    Виртуальная 
+                                    <br> реальность
                                 </figcaption>
                             </a>    
                         </figure>
@@ -180,18 +184,22 @@
                         <a>Кредит</a>
                     </li>
                 </ul>
-                <div class="option_current_discreption">
-                    <h3>Доставка</h3>
-                    <p>Мы с удовольствием доставим ваш товар прямо к вашему 
-                        <br>подъезду совершенно бесплатно! Ведь мы неплохо 
-                        <br>заработаем, поднимая его на ваш этаж.</p>
-                    <img src="./img/delivery.png" width="136" height="164">
-                </div>
+                <ul class="optiosns_discreptions">
+                    <li class="option_current_discreption">
+                        <h3>Доставка</h3>
+                        <p>
+                            Мы с удовольствием доставим ваш товар прямо к вашему 
+                            <br>подъезду совершенно бесплатно! Ведь мы неплохо 
+                            <br>заработаем, поднимая его на ваш этаж.
+                        </p>
+                        <img src="./img/delivery.png" width="136" height="164">
+                    </li>
+                </ul>    
             </section>
 
-            <section class="brend_list">
+            <section class="brends">
                 <h2 class="visually-hidden">Бренды</h2>
-                <ul>
+                <ul class="brend_list">
                     <li>
                         <img src="./img/logo-1.jpg.png" width="260" height="100">
                     </li>
@@ -206,6 +214,7 @@
                     </li> 
                 </ul>
             </section>
+            
             <div class="wrapper">
                 <section class="info">
                     <h2>
