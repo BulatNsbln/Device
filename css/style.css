@@ -136,17 +136,34 @@ a {
 
 .market_menu {
     padding: 0;
-    margin-left: 250px;
+    margin-left: 180px;
+}
+
+.market_menu a:nth-child(1) {
+    margin-right: 65px;
 }
 
 .main_navigation_menu {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 60px;
     padding: 0;
 }
 
+.main_navigation_menu li:nth-child(1) {
+    margin-right: 415px;
+}
+
+.main_navigation_menu li:nth-child(2) {
+    margin-right: 55px;
+}
+
+.main_navigation_menu li:nth-child(3) {
+    margin-right: 125px;
+}
+
+
 .slider {
-    margin-top: -100px;
+    margin-top: -115px;
     
 }
 
@@ -154,12 +171,44 @@ a {
     z-index: 2;
 }
 
+.slider_list {
+    padding-left: 105px;
+}
+
+
 .slide_item {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     
     height: 500px;
+    position: relative;
+}
+
+.slide_item_number_wrapper {
+    z-index: 2;
+}
+
+.slide__item_number_line {
+    height: 10px;
+    width: 100px;
+    background-color: #fff;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.slide_item_number {
+    z-index: 2;
+   
+    color: white;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 179px;
+    line-height: 179px;
+    font-weight: 700;
+    position: absolute;
+    top: -25px;
+    right: 50px;
 }
 
 .slide_item_title {
@@ -340,7 +389,52 @@ a {
     color: #ffffff;
 
     height: 325px;
+    position: relative;
+}
+
+.footer .footer_market_menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+.footer .footer_user_navigation {
+    position: absolute;
+    top: 60px;
+    right: 320px;
+
+}
+
+.footer_contacts {
+    margin: 0;
+    padding: 0;
+
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    position: absolute;
+    top: 130px;
+    left: 0px;
+}
+
+.footer_navigation_menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    position: absolute;
+    top: 130px;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    position: absolute;
+    top: 190px;
 }
 
 .footer a {
@@ -353,6 +447,11 @@ a {
     line-height: 48px;
     font-weight: 700;
     color: #ffc600;
+    margin: 0;
+
+    position: absolute;
+    top: 60px;
+    left: 20px;
 }
 
 .footer_user_navigation,
