@@ -169,10 +169,12 @@ a {
 
 .slide_item_image {
     z-index: 2;
+    margin-left: 90px;
+    margin-right: 60px;
 }
 
 .slider_list {
-    padding-left: 105px;
+    padding-left: 0;
 }
 
 
@@ -241,6 +243,21 @@ a {
     line-height: 24px;
     font-weight: 700;
     color: #000000;
+}
+
+.slide_item:nth-child(2) .slide_item_image {   
+    padding-left: 15px;
+}
+
+.slide_item:nth-child(3) .slide_item_image {   
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+.displayHidden {
+    display: none;
 }
 
 .category_list {
