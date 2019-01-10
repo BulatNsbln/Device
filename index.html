@@ -29,7 +29,7 @@
                 
                 <ul class="main_navigation_menu">
                     <li>
-                        <a href="#">Каталог товаров</a>
+                        <a class="button_catalog" href="#">Каталог товаров</a>
                     </li>
                     <li>
                         <a href="#">Доставка</a>
@@ -234,18 +234,18 @@
             <section class="options">
                 <h2 class="visually-hidden">Информация о вариантах покупки.</h2>
                 <ul class="options_list">
-                    <li class="option_item option_item_current">
-                        <a>Доставка</a>
+                    <li class="option_item">
+                        <button>Доставка</button>
                     </li>
                     <li class="option_item">
-                        <a>Гарантия</a>
+                        <button>Гарантия</button>
                     </li>
                     <li class="option_item">
-                        <a>Кредит</a>
+                        <button>Кредит</button>
                     </li>
                 </ul>
                 <ul class="optiosns_discreptions">
-                    <li class="option_current_discreption">
+                    <li class="option_discreption_item ">
                         <h3>Доставка</h3>
                         <p>
                             Мы с удовольствием доставим ваш товар прямо к вашему 
@@ -253,6 +253,26 @@
                             <br>заработаем, поднимая его на ваш этаж.
                         </p>
                         <img src="./img/delivery.png" width="136" height="164">
+                    </li>
+
+                    <li class="option_discreption_item displayHidden">
+                        <h3>Гарантия</h3>
+                        <p>
+                            Если из-за возгорания купленного у нас товара у вас сгорит 
+                            <br>дом — не переживайте, мы выдадим вам новый.
+                            <br>Товар, не дом, конечно же.
+                        </p>
+                        <img src="./img/warranty.png" width="171" height="194">
+                    </li>
+
+                    <li class="option_discreption_item displayHidden">
+                        <h3>Кредит</h3>
+                        <p>
+                            Залезть в долговую яму стало проще! Кредитные 
+                            <br>консультанты подберут для вас наиболее выгодные 
+                            <br>условия кредита. Выгодные для нашего банка, разумеется.
+                        </p>
+                        <img src="./img/credit.png" width="156" height="186">
                     </li>
                 </ul>    
             </section>
@@ -349,6 +369,30 @@
 
             <img src="" class="footer_dev_logo">
         </footer>
+
+        <section class="hover_menu">
+            <ul class="hover_menu_catalog">
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Виртуальная реальность</a>
+                </li>
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Моноподы для селфи</a>
+                </li>
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Экшн-камеры</a>
+                </li>
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Умные часы</a>
+                </li>
+                <li class="hover-menu-catalog_item">
+                    <a href="#">Квадрокоптеры</a>
+                </li>
+            </ul>
+
+        </section>
     </div>
 
     <script src="./js/script.js"></script>

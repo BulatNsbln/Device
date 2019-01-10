@@ -1,5 +1,3 @@
-// slider 
-
 class Slider {
     constructor(buttons, slideList) {
         this._buttonsArr = buttons;
@@ -24,8 +22,31 @@ class Slider {
     }
 }
 
-let buttonsNodeList = document.querySelectorAll(".slider_navigation button");
-let buttonsArr = [...buttonsNodeList];
-let slideList = document.querySelectorAll(".slide_item");
+// slider top
 
-let slider = new Slider(buttonsArr, slideList);
+let buttonsNodeListTop = document.querySelectorAll(".slider_navigation button");
+let buttonsArrTop = [...buttonsNodeListTop];
+let slideListTop = document.querySelectorAll(".slide_item");
+
+let sliderTop = new Slider(buttonsArrTop, slideListTop);
+
+
+// menu catalog
+
+let buttonCatalogs = document.querySelector(".main_navigation_menu .button_catalog");
+let catalogMenu = document.querySelector(".hover_menu");
+
+buttonCatalogs.addEventListener('mouseover', showAndHiddenMenu);
+buttonCatalogs.addEventListener('mouseout', showAndHiddenMenu);
+
+function showAndHiddenMenu() {
+    catalogMenu.classList.toggle("hover_menu_show");
+}
+
+// slider options
+
+let buttonsNodeListOp = document.querySelectorAll(".options_list button");
+let buttonsArrOp = [...buttonsNodeListOp];
+let slideListOp = document.querySelectorAll(".option_discreption_item");
+
+let sliderOptions = new Slider(buttonsArrOp, slideListOp);
