@@ -1,4 +1,4 @@
-inmort Slider from './Slider.js'
+import Slider from './Slider.js'
 
 // slider top
 
